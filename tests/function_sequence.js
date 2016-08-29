@@ -1,8 +1,8 @@
 var SubjectTestJS = require("../index.js");
 
-function TestFunctions()
+function FunctionSequence()
 {
-    this.TestFunctionsCase = function(assert, print, testSetTimeout, deffer, makeTestCallback)
+    this.FunctionSequenceTest = function(assert, print, testSetTimeout, deffer, makeTestCallback)
     {
         var progress = true;
         var progressIndex = 0;
@@ -104,9 +104,9 @@ function TestFunctions()
     };
 }
 
-TestFunctions.testCases = [];
-TestFunctions.testCases.push("TestFunctionsCase");
+FunctionSequence.testCases = [];
+FunctionSequence.testCases.push("FunctionSequenceTest");
 
-TestFunctions.name = "TestFunctions";
+FunctionSequence.name = "FunctionSequence";
 
-module.exports = TestFunctions;
+module.exports = FunctionSequence;
