@@ -351,7 +351,7 @@ function runTestSuites(testSuites, print, testSuitesDone)
         runNextTestSuite();
     }
 
-    runNextTestSuite();
+    setTimeout(runNextTestSuite, 0);
 }
 
 exports.runTestSuites = runTestSuites;
